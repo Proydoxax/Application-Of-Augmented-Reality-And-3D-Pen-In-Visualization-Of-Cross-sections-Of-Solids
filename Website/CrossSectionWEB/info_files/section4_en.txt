@@ -1,0 +1,36 @@
+Implementation of Teaching in a Selected Secondary-School Class
+
+The author describes how two experimental lessons with a 3D pen took place in a secondary-school classroom (number of students: 24, ages 16–17). The class was divided into 6 groups of 4 students; each group had one 3D pen and two templates (cube, projection corner). The teacher (P.Q.) first demonstrated how to create a “wall” between two skew lines, then assigned the task of constructing a cube and drawing its planar cross-section. The lesson lasted 45 minutes; during that time, students rotated roles, recorded their observations in a worksheet, and compared their results with the prescribed formulas for calculating angles and distances.
+
+Student Workflow with a 3D Pen
+1. Preparation: The group divided tasks—one student recorded measurements, another drew templates, a third built the 3D model, and the fourth wrote down final observations.  
+2. Drawing: Students extruded filament “rods” representing the edges of the cube (5 cm each).  
+3. Creating the Cut: Using the template and 3D pen, they made a planar model of a cube’s cross-section (tracing filament along three points A, B, C).  
+4. Measurement: After the filament hardened, they measured angles and sides of the cross-section with a plastic template and compared calculated values with the actual model.  
+5. Discussion: Students evaluated differences between theoretical values and model results (e.g., slight deviations due to imperfect corners).  
+Priority: The author emphasizes that the teacher should allocate enough time for preparation and demonstration because students must understand why they build the physical model before solving formulas.
+
+Teaching Implementation in a High-School Lesson
+Redechová describes how a lesson unfolded in which students worked on tasks with a 3D pen:  
+   • Lesson length: 45 minutes, number of students: 20.  
+   • Template preparation: Before the lesson, the teacher prepared three paper templates (cube, cuboid, pyramid). Students worked in pairs.  
+   • Procedure:  
+     1. Heat filament and brief instruction on safe handling.  
+     2. Students drew the “skeleton” of a cube (filament edges, 5 cm).  
+     3. They created a planar model of a cube’s cross-section by using three points (two students held the template, two drew the cut on the cube).  
+     4. They sketched the cross-section shape on a worksheet (recording side lengths and angles).  
+     5. Discussion: Compare the results with the formulas used to calculate the cube’s cross-section.  
+   Decision: The author recommends using colored-pigment filaments (e.g., blue PLA) to better see where a cut begins and ends. The teacher ensured each pair had a paper template and a spare pen.
+
+Course of Experimental Teaching in an Elementary-School Class
+The experiment took place in an elementary school:  
+   – Class: Grade 7 (ages 12–13), number of students: 24.  
+   – Organization: Students were divided into 4 groups of 6; each group had one 3D pen and an assistant (an older student or teacher’s aide).  
+   – Sequence:  
+     1. Introduction (5 min): Explain the principle of free parallel projection to students.  
+     2. Demonstration (10 min): The teacher showed how to draw a three-dimensional cuboid and project it onto paper at 45°.  
+     3. Practical part (25 min): Students built a cube out of filament (edges 4 cm), drew its free parallel projection, and then constructed and assessed a cube’s cross-section through three designated points.  
+     4. Reflection (5 min): Discussion on their findings—why some edges shorten in the projection and how to explain these shortenings mathematically.
+
+Mastery of the Material
+According to Trubačová, using a 3D pen helped students physically build a model and thus better orient themselves in space. Their reflexive skills (estimating angles, distances) improved compared to the control group that worked without a 3D pen. Educators also confirmed that using inexpensive children’s 3D pens (under €30) is sufficient and safe in a school environment.

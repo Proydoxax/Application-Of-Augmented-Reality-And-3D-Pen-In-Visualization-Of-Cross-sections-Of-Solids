@@ -1,0 +1,58 @@
+Designing Metric Exercises with a 3D Pen
+
+Design Proposals for Selected Stereometry Tasks
+In this part, tasks are proposed that focus on metric relationships “line–plane” and “line–line.” The author presents three specific examples:
+
+1. Metric Relationships between Skew Lines
+   – Task: Build two skew lines AB and CD in space using a 3D pen.  
+   – Procedure: The student extrudes thin “rods” (filament) onto paper, creates a perpendicular wall between the lines, and measures the right angle (triangle ABC). Finally, they calculate the distance between AB and CD using a tactile model and the official Euclidean‐space method (formula calculation).
+
+2. Metric Relationships between a Line and a Plane
+   – Task: Mark a point P and construct a perpendicular line from it to a plane π.  
+   – Procedure: First, use the 3D pen to draw parallel lines in plane π; then extrude a perpendicular line P–Q (perpendicular to π). The student verifies that PQ is indeed perpendicular, thanks to the tactile wall made of filament, and calculates PQ’s length according to the assigned problem.
+
+3. “Line–Line” Connection in Space
+   – Task: Two lines AB and CD are skew. Find their shortest distance.  
+   – Procedure: With the 3D pen, create three filament “rods” for AB, CD, and the perpendicular segment from AB to CD. The measuring element (the third rod) must have its ends exactly on AB and CD. The student thus sees physically why that path is the shortest.
+
+Note: A detailed calculation is not provided in the text; the main emphasis is on the purpose of each task (developing spatial intuition) rather than on a formal step-by-step solution.
+
+Cutting a Cube with a Plane
+
+Step 1 – Construct the Cube with a 3D Pen  
+   • Place a cube template on paper.  
+   • Using the 3D pen, extrude filament “edges” of the cube (5 cm each).  
+   • Ensure all sixteen edges are equal in length and the joints are solid.
+
+Step 2 – Choose Three Points A, B, C on the Cube’s Surface  
+   • At least two of these points lie on the same face (e.g., A, B, C are vertices of the bottom face).  
+   • Mark them with color or small stickers.
+
+Step 3 – Construct the Plane Determined by Three Points  
+   • Place the paper template for the plane and use the 3D pen to extrude a filament “plate” through points A, B, C (this plate serves as the cutting plane).  
+   • It is important for the plate to protrude from the cube so that the intersection of the cut is clear.
+
+Step 4 – Record the Cross-Section Shape  
+   • After forming the filament plate, remove excess filament around the cube and observe the resulting shape (a complete pentagon or hexagon).  
+   • The student sketches the cross-section shape on paper and measures its sides and angles.
+
+Step 5 – Evaluation  
+   • The student compares the calculated dimensions of the cross-section with the real filament model to verify the correctness of their procedure.
+
+Free Parallel Projection
+
+Description of Free Parallel Projection  
+   • Free parallel projection (axonometry) is defined so that lines in space perpendicular to the projection plane appear halved in length in the image and form 45° angles with the images of lines that lie in the plane.  
+   • Students build a cuboid or prism as a model, then place the 3D pen (or a holder with a plastic plate) so that the model is fixed at a 45° angle, and press a paper ruler against it.
+
+Task 1 – Model a Cuboid at a 45° Angle  
+   – Place a cuboid template on paper.  
+   – Use the 3D pen to extrude the cuboid’s corners and then its edges at an angle until a 3D model of the cuboid emerges.  
+   – Position the projection plate (template) so that it is at a 45° angle to the model.  
+   – Notice how the image of the top face “shortens” and how parallel edges appear skewed.
+
+Task 2 – Project Several Basic Solids  
+   – Construct a cube and a pyramid out of filament.  
+   – Using the plane of the projected paper (attached to the template), place the pyramid and cube models in various orientations.  
+   – Observe the difference between horizontal, vertical, and slanted edges in their images.  
+   – Record the ratio of lengths of projected segments (perpendiculars onto the projection plane) and calculate the object’s true dimensions.

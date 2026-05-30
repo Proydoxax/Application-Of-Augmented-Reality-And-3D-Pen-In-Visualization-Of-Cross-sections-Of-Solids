@@ -1,0 +1,28 @@
+ About the 3D Pen, Filaments, and Their Use
+
+Choosing a Pen Considering Schools’ Budgets
+A 3D pen is essentially a small additive 3D printer that melts PLA filament at around 200 °C and deposits molten plastic layer by layer. The author compares several 3D pen models (brands XY, AB, CD), of which the most affordable cost around €30 and offer basic functions (adjustable temperature, variable extrusion speed). However, she points out that schools should choose pens with an easy nozzle‐change mechanism and compatibility with inexpensive generic PLA filaments.
+
+Suitability of Filaments with Respect to Ecology and Sustainability
+The author emphasizes that PLA filament is a biodegradable thermoplastic and belongs to more eco-friendly options (compared to ABS). In a school environment, it is important to choose a filament that does not contain toxic additives to avoid health risks during prolonged use. Piacková recommends purchasing filament in 1 kg spools for about €25, which is enough for hundreds of students if each task consumes about 10 g of filament.
+
+Usage in the Educational Process
+With a 3D pen, one can create tools like paper rulers, projection corners, or templates for cutting cubes. The author suggests starting with simple tasks: drawing two skew lines, creating a perpendicular wall between them to measure a right angle, or forming a cuboid at a 45° angle. Everything that was originally done with pencil and paper can now be done with a 3D pen and the tool created with it.
+
+Types of Filaments and Their Properties
+Redechová in this section mentions that besides PLA there are other eco-filaments (e.g., PETG, PLA+ with pigments, wood-filled PLA), but a standard white PLA is sufficient in a classroom setting to demonstrate cutting principles and representing solids. The filament must be strong but should not require overly high extrusion temperatures because students often lack experience setting the optimal pen temperature. Filament diameter (1.75 mm vs. 2.85 mm) varies by pen model; the author recommends using 1.75 mm diameter filaments because they are easier to use in inexpensive school kits.
+
+Suitability of a 3D Pen for Teaching
+The author writes that pen selection should consider ergonomic aspects: low weight (< 50 g), easy filament change, and the ability to adjust extrusion speed. In practice, she notes that during a 45-minute class with 20 students, one spare pen and one kilogram of PLA are cost-effective and sufficient in case a pen fails.
+
+Characteristics and Its Use
+A 3D pen combines characteristics of a 3D printer and a handheld tool—it allows creating three-dimensional shapes directly in space. Trubačová describes the principle: the pen pulls PLA filament (1.75 mm) into a heating chamber, melts it, and extrudes molten plastic through a nozzle that solidifies in the air. Thanks to this, students can directly illustrate geometry without needing to prepare a 3D model on a computer.
+
+Parameters, Functions, and Types of 3D Pens
+In this subsection, differences are outlined between hobby-level 3D pens (€20–€30), prosumer (€40–€60), and professional (≥ €100) pens. The difference lies in extrusion precision, temperature-change sensitivity, and availability of optional nozzles. The author recommends a less expensive segment for schools as long as the kit includes at least two nozzle sizes (0.4 mm and 0.7 mm) and the ability to adjust extrusion speed.
+
+Thermoplastic Filaments
+Besides PLA, there are other materials (ABS, PETG), but Trubačová emphasizes that PLA is best for schools because it is biodegradable and melts at a lower temperature (180 °C–200 °C). From a safety standpoint, PLA is less toxic than ABS (which can release harmful particles and, for example, styrene when heated).
+
+Templates and Other Accessories
+The author lists the accessories: paper ruler, projection corner, templates for cutting cubes, patterns of spatial solids (cube, rhombus), and a work surface so that filament does not stick to the desk. For effective use, the teacher should prepare at least three different templates (e.g., prism, pyramid, cube) and show them to students before demonstrating pen usage.

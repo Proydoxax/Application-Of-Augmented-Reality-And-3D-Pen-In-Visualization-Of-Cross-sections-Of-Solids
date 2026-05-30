@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title data-i18n-key="pageTitle">3D Pero – Projekt</title>
+    <link rel="icon" type="image/x-icon" href="uploads/photos/logo/3dpen_logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+<style>
+  #info .info-item.info-flip-card {
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    perspective: 1200px;
+    cursor: pointer;
+  }
+
+  #info .info-item.info-flip-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  #info .info-card-inner {
+    position: relative;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.6s ease;
+  }
+
+  #info .info-item.is-flipped .info-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  #info .info-card-face {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100%;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  #info .info-card-front {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-bottom: 64px;
+  }
+
+  #info .info-card-back {
+    position: absolute;
+    inset: 0;
+    transform: rotateY(180deg);
+    padding: 24px;
+    overflow: auto;
+    color: #333;
+    line-height: 1.55;
+    white-space: pre-line;
+  }
+
+  #info .info-item.info-flip-card:hover .info-card-face {
+    box-shadow: 0 8px 24px rgba(0,0,0,.08);
+  }
+
+  #info .info-flip-close {
+    position: sticky;
+    top: 0;
+    float: right;
+    width: 34px;
+    height: 34px;
+    border: 0;
+    border-radius: 50%;
+    background: #F0FBFF;
+    color: #0056b3;
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav">
+
+    <div class="container nav__inner">
+        <a href="#" class="logo">
+            <img src="uploads/photos/logo/3dpen.png" alt="3D Pero logo" />
+            <span data-i18n-key="logoText">3D Pero</span>
+        </a>
+
+        <ul class="nav__links">
+            <li><a href="#hero" data-i18n-key="navGallery">Galéria</a></li>
+            <li><a href="#navody" data-i18n-key="navTutorials">Návody</a></li>
+            <li><a href="#sablony" data-i18n-key="navBlueprints">Šablóny</a></li>
+            <li><a href="#info" data-i18n-key="navInfo">Info</a></li>
+        </ul>
+
+        <button id="translate-btn" class="btn btn--secondary btn-translate" data-i18n-key="translateButton">
+            EN
+        </button>
+    </div>
+</nav>
+
+<section id="hero" class="hero">
+    <div class="hero__slider">
+        <div class="slide">
+            <img
+                    src="uploads/photos/slide1.jpg"
+                    alt="Slide 1"
+                    onerror="this.onerror=null;this.src='https://via.placeholder.com/1920x1080?text=Slide+1';"
+            />
+        </div>
+        <div class="slide">
+            <img
+                    src="uploads/photos/slide2.jpg"
+                    alt="Slide 2"
+                    onerror="this.onerror=null;this.src='https://via.placeholder.com/1920x1080?text=Slide+2';"
+            />
+        </div>
+        <div class="slide">
+            <img
+                    src="uploads/photos/slide3.jpg"
+                    alt="Slide 3"
+                    onerror="this.onerror=null;this.src='https://via.placeholder.com/1920x1080?text=Slide+3';"
+            />
+        </div>
+    </div>
+
+    <div class="hero__dots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+    </div>
+
+    <div class="hero__overlay">
+        <h1 class="hero__title" data-i18n-key="heroTitle">
+            Preskúmaj ukážky 3D látok vytvorených pomocou 3D pera
+        </h1>
+        <p class="hero__subtitle" data-i18n-key="heroSubtitle">
+            Zisti čo všetko 3D pero dokáže a nechaj sa inšpirovať!
+        </p>
+        <a href="#" id="open-gallery" class="btn btn--primary" data-i18n-key="openGalleryButton">
+            POZRI GALÉRIU
+        </a>
+    </div>
+</section>
+
+
+<section id="about" class="section section--intro">
+    <div class="container">
+        <div class="intro__wrapper">
+
+            <p class="intro__text" data-i18n-key="introText">
+                Táto platforma prináša didaktické materiály pre prácu s 3D perom v geometrii:
+            </p>
+            <ul class="intro__list">
+                <li data-i18n-key="introItem1">
+                    <strong data-i18n-key="introItem1Strong">Voľné rovnobežné premietanie</strong><br />
+                    Sada úloh a šablón na modelovanie základných telies a ich premietov, ktorá zlepšuje
+                    vizuálnu názornosť priestorových vzťahov priestor‐rovina.
+                </li>
+
+                <li data-i18n-key="introItem2">
+                    <strong data-i18n-key="introItem2Strong">Metrické úlohy v stereometrii</strong><br />
+                    Príklady polohových vzťahov, výpočty uhlov a vzdialeností s 3D perom vrátane hodnotenia
+                    cenovo dostupných per a ekologických filamentov.
+                </li>
+
+                <li data-i18n-key="introItem3">
+                    <strong data-i18n-key="introItem3Strong">Rovinné rezy priestorových telies</strong><br />
+                    Manuál a šablóny na tvorbu rezov kociek, vysvetlenie rôznych polôh rezových rovin a
+                    prehľad vhodných 3D pier do škôl.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+<section id="navody" class="section section--alt">
+    <div class="container">
+
+        <div id="navody-grid" class="grid grid--3col">
+            <div class="video-thumb" data-video="uploads/videos/3dPenNavod1.mp4">
+                <video class="bg-video" src="uploads/videos/3dPenNavod1.mp4" muted loop playsinline></video>
+                <div class="video-overlay"><h3 data-i18n-key="tutorial1">Návod 1</h3></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sablony" class="section">
+    <div class="container">
+        <h2 class="section__title" data-i18n-key="blueprintsTitle">Šablóny</h2>
+        <div class="sablony-section">
+
+
+            <article class="sablona" data-topic="Šablóny pre voľné rovnobežné premietanie">
+                <h3 data-i18n-key="blueprint1Title">
+                    Šablóny pre voľné rovnobežné premietanie
+                </h3>
+                <p data-i18n-key="blueprint1Desc">
+                    Interaktívny didaktický materiál s úlohami a presnými šablónami pre
+                    tvorbu modelov základných telies a ich premietov, ktorý pomáha učiteľom
+                    aj žiakom lepšie pochopiť vzťahy medzi 3D objektmi a ich projekciami
+                    do roviny.
+                </p>
+                <a
+                        href="uploads/blueprints/Šablóny_pre_voľné_rovnobežné_premietanie.pdf"
+                        download
+                        class="btn btn--secondary sablona-link"
+                        data-i18n-key="blueprint1Button"
+                >
+                    STIAHNI PDF
+                </a>
+            </article>
+
+            <article class="sablona" data-topic="Šablóny pre metrické úlohy v stereometrii">
+                <h3 data-i18n-key="blueprint2Title">
+                    Šablóny pre metrické úlohy v stereometrii
+                </h3>
+                <p data-i18n-key="blueprint2Desc">
+                    Sada príkladov ilustrujúcich polohové vzťahy priamok a rovín, výpočty
+                    uhlov a vzdialeností s využitím 3D pera, papierového pravítka a
+                    premietacieho kútika. Práca tiež hodnotí cenovo dostupné perá a
+                    ekologické filamenty.
+                </p>
+                <a
+                        href="uploads/blueprints/Šablóny_pre_metrické_úlohy_v_stereometrii.pdf"
+                        download
+                        class="btn btn--secondary sablona-link"
+                        data-i18n-key="blueprint2Button"
+                >
+                    STIAHNI PDF
+                </a>
+            </article>
+
+            <article class="sablona" data-topic="Šablóny pre rovinné rezy priestorových telies">
+                <h3 data-i18n-key="blueprint3Title">
+                    Šablóny pre rovinné rezy priestorových telies
+                </h3>
+                <p data-i18n-key="blueprint3Desc">
+                    Manuál k šablónam na konštrukciu rezov kociek rôznymi rovinami –
+                    obsahuje návod a šablóny pre 3D pero aj prehľad vhodných
+                    modelovacích materiálov.
+                </p>
+                <a
+                        href="uploads/blueprints/Šablóny_pre_rovinné_rezy_priestorových_telies.pdf"
+                        download
+                        class="btn btn--secondary sablona-link"
+                        data-i18n-key="blueprint3Button"
+                >
+                    STIAHNI PDF
+                </a>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<section id="info" class="section info-block">
+  <div class="info-container">
+    <h2 class="info-title" data-i18n-key="infoTitle">
+      Dôležité informácie o 3D perách a stereometrii
+    </h2>
+
+    <div class="info-items-row1">
+      <div class="info-item">
+        <h3 class="item-subtitle" data-i18n-key="info1Title">
+          1. Priestorová geometria a inovatívne prístupy
+        </h3>
+        <p data-i18n-key="info1Para1">
+          Učiť sa priestorové vzťahy neznamená len čmárať tvary na papier.
+          Žiaci si môžu postaviť jednoduché telesá (kocky, ihlany, hranoly)
+          pomocou 3D pera a priamo vidia, ako sa zmení tvar pri premietaní do
+          dvojrozmernej roviny. Tento „dotykový“ prístup podporuje hlbšie
+          pochopenie a rýchlejšie zapamätanie, pretože priestor nie je
+          abstrakciou, ale hmatateľnou realitou.
+        </p>
+        <a class="info-hint" href="/tema/priestorova-geometria" aria-label="Kliknite pre viac info">
+          Kliknite pre viac info
+        </a>
+      </div>
+
+      <div class="info-item">
+        <h3 class="item-subtitle" data-i18n-key="info2Title">
+          2. Čo je 3D pero, aké filamenty a ako ich využiť
+        </h3>
+        <p data-i18n-key="info2Para1">
+          3D pero je vlastne malá 3D tlačiareň v rukách – zahrieva ekologický
+          PLA filament na približne 200 °C a vytvára vrstvy plastu. Pre školy sa
+          hodia lacnejšie, no spoľahlivé PLA filamente (nielen z ekonomického,
+          ale aj z ekologického hľadiska). K práci potrebujete:
+        </p>
+        <ul class="sub-list" data-i18n-key="info2List">
+          <li>pevná podložka (napr. PVC), nech sa filament nelepí na lavice,</li>
+          <li>náhradná tryska a pár gramov PLA, čo postačuje pre desiatky modelov,</li>
+          <li>náhradné 3D pero, aby hodina neostala „zamrznutá“, keď jedno pero zhasne.</li>
+        </ul>
+        <a class="info-hint" href="/tema/3d-pero-a-filamenty" aria-label="Kliknite pre viac info">
+          Kliknite pre viac info
+        </a>
+      </div>
+
+      <div class="info-item">
+        <h3 class="item-subtitle" data-i18n-key="info3Title">
+          3. Návrh úloh zo stereometrii s 3D perom
+        </h3>
+        <p>
+          <strong data-i18n-key="info3Strong1">Metrické vzťahy:</strong>
+          <span data-i18n-key="info3Para1">
+            Namiesto papierových vzorcov postavíte dve mimobežné priamky či priamku a rovinu.
+            3D pero vám pomôže vytvoriť kolmú stenu alebo pás medzi nimi tak, aby ste hmatom
+            merali pravý uhol alebo vzdialenosť.
+          </span>
+        </p>
+        <p>
+          <strong data-i18n-key="info3Strong2">Rezy kocky:</strong>
+          <span data-i18n-key="info3Para2">
+            Sestavíte jednoduchú kocku z pár vrstiev filamentu, vyznačíte tri body a pomocou
+            3D pera urobíte rez. Výsledný päťuholník či šesťuholník vidíte priamo, nie len v mysli.
+          </span>
+        </p>
+        <p>
+          <strong data-i18n-key="info3Strong3">Voľné rovnobežné premietanie:</strong>
+          <span data-i18n-key="info3Para3">
+            Modelujte kváder pod 45 °C uhol a porovnajte, ako sa rovnobežné čiary menia pri rôznych
+            uhlách pohľadu. Tým pochopíte, prečo uhol medzi telesom a rovinou skracuje kolmé úsečky.
+          </span>
+        </p>
+        <a class="info-hint" href="/tema/stereometria-uloha" aria-label="Kliknite pre viac info">
+          Kliknite pre viac info
+        </a>
+      </div>
+    </div>
+
+    <div class="info-items-row2">
+      <div class="info-item">
+        <h3 class="item-subtitle" data-i18n-key="info4Title">
+          4. Pre učiteľov – realizácia v triede
+        </h3>
+        <p data-i18n-key="info4Para1">
+          <strong data-i18n-key="info4Strong1">Organizácia:</strong>
+          Rozdeľte triedu do skupín po 3 – 4 žiakoch, aby každá skupina mala aspoň jedno pero.
+          Pred začiatkom ukažte hotový model (rez kocky alebo kvádra pod uhlom) a vysvetlite, čo žiaci dosiahnu.
+        </p>
+        <p data-i18n-key="info4Para2">
+          <strong data-i18n-key="info4Strong2">Pomôcky:</strong> PVC podložky, aby sa zatvrdnutý filament nelepil na stoly,
+          a náhradné trysky (pendrive s videom, ako sa vkladá filament, pomôže znížiť čas,
+          ktorý žiaci strávia nastavovaním pera).
+        </p>
+        <p data-i18n-key="info4Para3">
+          <strong data-i18n-key="info4Strong3">Priebeh hodiny:</strong> Žiaci najprv zostavia základné tvary – obrysy kocky či ihlanu.
+          Keď vidia, ako sa vrstvy ukladajú, má učiteľ priestor na diskusiu a vysvetlenie teórie.
+          Čas, ktorý by sa inak strávil kreslením, sa využíva na praktické modelovanie.
+        </p>
+        <a class="info-hint" href="/tema/realizacia-v-triede" aria-label="Kliknite pre viac info">
+          Kliknite pre viac info
+        </a>
+      </div>
+
+      <div class="info-item">
+        <h3 class="item-subtitle" data-i18n-key="info5Title">
+          5. Vyhodnotenie experimentálneho vyučovania
+        </h3>
+        <p data-i18n-key="info5Para1">
+          Po pilotnom experimente so 3D perom testy na priestorovú predstavivosť ukázali, že
+          žiaci dosiahli omnoho presnejšie výsledky a rýchlejšie riešili úlohy (v priemere o
+          niekoľko minút oproti papierovej skupine).
+        </p>
+        <p data-i18n-key="info5Para2">
+          Kvalitatívne spätné väzby potvrdili, že práce s perom sú zábavnejšie a kolektivita v
+          triede sa zlepšila. Experimentálna výučba tak priniesla:
+        </p>
+        <ul class="sub-list" data-i18n-key="info5List">
+          <li>lepšiu angažovanosť,</li>
+          <li>zvýšenú presnosť pri meraní,</li>
+          <li>rýchlejšie zvládnutie úloh,</li>
+          <li>zdravú konkurenciu a tímovú spoluprácu.</li>
+        </ul>
+        <p data-i18n-key="info5Para3">
+          Jedno 3D pero stojí približne 30 € a jeden kilogram gutenomer PLA filamentov (okolo
+          330 m filamentu) stojí cca 25 €. Priemerne 10 g filamentu postačí na jednu úlohu
+          za hodinu pre 3 žiakov – takže jeden kilogram vystačí pre stovky žiakov, čo je
+          rozpočtovo prijateľné.
+        </p>
+        <a class="info-hint" href="/tema/vyhodnotenie" aria-label="Kliknite pre viac info">
+          Kliknite pre viac info
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div id="gallery-modal" class="gallery-modal hidden">
+    <div class="gallery-modal-overlay"></div>
+    <div class="gallery-modal-content">
+        <button id="gallery-close" class="gallery-modal-close">✕</button>
+        <input id="gallery-search" class="gallery-search" placeholder="Hľadaj v galérii…" />
+
+        <h3 class="modal-section-title" data-i18n-key="galleryPhotos">Fotky</h3>
+        <div id="gallery-photo-grid" class="gallery-grid"></div>
+
+        <h3 class="modal-section-title" data-i18n-key="galleryVideos">Videá</h3>
+        <div id="gallery-video-grid" class="gallery-grid"></div>
+    </div>
+</div>
+
+<div id="info-modal" class="info-modal hidden">
+    <div class="info-modal-overlay"></div>
+    <div class="info-modal-content">
+        <button id="info-close" class="info-modal-close">✕</button>
+        <div id="info-modal-text" class="info-modal-text">
+
+        </div>
+    </div>
+</div>
+
+<footer class="site-footer">
+    <div class="container">
+        <p data-i18n-key="footerText">© 2026 I. Novikov 3Ain</p>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

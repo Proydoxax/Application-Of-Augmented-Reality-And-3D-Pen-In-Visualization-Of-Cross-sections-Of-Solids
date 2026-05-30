@@ -1,0 +1,49 @@
+ Vyhodnotenie priebehu experimentálnych hodín
+
+ Spätná väzba od študentov
+Po dvoch hodinách experimentálnej výučby s 3D perom Piačková zrealizovala anketu:
+   – 85 % žiakov uviedlo, že pochopili priestorové vzťahy rýchlejšie ako pomocou iba
+     teoretických cvičení.  
+   – 70 % študentov si myslelo, že elektronické grafické ukážky (aplikácia na PC) sú náročné
+     ovládať, zatiaľ čo 3D pero im dalo okamžitú spätnú väzbu a vnímali ho ako menej
+     technicky náročné.  
+   – Niekoľkí žiaci (15 %) spomenuli, že pri prvom použití mali problém so stabilitou rúk
+     a potrebovali viac času na zvládnutie extrúzie.
+
+ Vyhodnotenie dotazníka
+Dotazník sa skladal z 10 položiek s Likertovou škálou:
+   – „Cítim sa istejší pri riešení metrických vzťahov, keď mám reálny model.“
+      - Priemer: 4,3/5  
+   – „Rozumiem, prečo sa niektoré hrany pri premietaní skracujú.“  
+     - Priemer: 4,1/5  
+   – „Učenie 3D perom ma baví viac ako klasické kreslenie.“  
+     - Priemer: 4,7/5  
+V celkovom vyhodnotení Piačková dospela k záveru, že experimentálne vyučovanie inovatívnymi
+nástrojmi, ako je 3D pero, podporilo záujem o stereometriu a zlepšilo výsledky študentov o ~ 15 %
+v priemerných testových bodoch oproti kontrolnej skupine.
+
+ Diskusia a zhrnutie
+Redechová uvádza, že v rámci ich experimentu 
+   – experimentálna skupina (so 3D perom) dosiahla v priemere o 12 % lepšie výsledky v testoch na
+     priestorovú predstavivosť (testy: rovinový rez kocky, určenie polohy priamok).  
+   – Žiaci v experimentálnej skupine sa v dotazníku vyjadrili, že pracovať s 3D perom im umožnilo
+     lepšie si vizualizovať abstraktné pojmy (85 % žiakov súhlasilo s tvrdením „Lepšie som pochopil
+     rezy priestorových telies.“).  
+   – Autorka zdôraznila, že priestorová predstavivosť u týchto žiakov vzrástla (hodnotené prostredníctvom
+     testu „vzťahy priamka – rovina“ pred a po experimente), pričom najväčší nárast (o 18 %) 
+     bol u žiakov s pôvodne nižšími výsledkami.
+
+ Spätná väzba od žiakov
+Trubačová uvádza, že pri základných školách (7. ročník) 
+   – 90 % žiakov uviedlo, že sa učili rýchlejšie ako pri bežných cvičeniach bez 3D pera.
+   – 80 % žiakov považuje 3D pero za zábavné a motivujúce.  
+   – Najmenej istí boli žiaci, ktorí nikdy predtým nechytali 3D pero – mali problém s rovnováhou pri
+     vytváraní vertikálnych stien.  
+
+ Pohľad učiteľov
+   – Pedagógovia potvrdili, že hmatateľné modely z filamentu pomáhajú „zakoreniť“ chápanie priestorových
+     vzťahov.  
+   – Ako nevýhodu spomenuli, že postupné vrstvenie filamentu je pomalé (25 min pre jeden kompletný model
+     kocky), a ak žiakov nevedú dôkladne, môžu sa rýchlo frustrovať (v dôsledku nepresnosti hrán).  
+   – Odporúčanie: Pridať krátku predbežnú ukážku videa o 3D pere, aby žiaci mali predstavu, ako pero
+     funguje, predtým než sa ho dotknú.

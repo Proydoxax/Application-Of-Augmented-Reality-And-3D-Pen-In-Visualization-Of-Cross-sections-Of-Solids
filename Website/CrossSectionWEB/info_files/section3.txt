@@ -1,0 +1,76 @@
+ Vyučovanie metrických úloh pomocou 3D pera
+
+ Návrh riešenia vybraných stereometrických úloh
+V tejto časti sa navrhujú úlohy zamerané na metrické vzťahy „priamka – rovina“ a „priamka – priamka“.
+Autorka uvádza tri konkrétne príklady:
+
+1. Metrické vzťahy medzi mimobežnými priamkami
+   – Úloha: Postavte dve mimobežné priamky AB a CD v priestore pomocou 3D pera.  
+   – Postup: Žiak extruduje tenké „tyčinky“ (filamentu) na papieri, vytvorí kolmú stenu medzi priamkami
+     a meria pravý uhol (tvar trojuholníka ABC). Nakoniec vypočíta vzdialenosť medzi AB a CD pomocou
+     hmatového modelu a správnej oficiálnej metódy (výpočet pomocou vzorcov v euklidovskom
+     priestore).
+
+2. Metrické vzťahy medzi priamkou a rovinou
+   – Úloha: Označte bod P a vytvorte z neho kolmú priamku k rovine π.  
+   – Postup: Najprv pomocou 3D pera vytvorte rovnobežné čiary v rovine π, potom extrudujte kolmú
+     čiaru P – Q (kolmá na π). Žiak si overí, že PQ je skutočne kolmá, vďaka hmatateľnej stene z filamentu,
+     a vypočíta dĺžku PQ podľa predpísanej úlohy.
+
+3. Spojenie „priamka – priamka“ v rovine
+   – Úloha: Dve priamky AB a CD sú mimobežné. Nájdite ich najkratšiu vzdialenosť.  
+   – Postup: Pomocou 3D pera vytvorte tri 3D filamento­vé „tyčinky“ pre AB, CD a kolmú z AB na CD.  
+     Meriaci prvok (tretia tyčinka) musí mať konce presne na AB a CD. Žiak sa tak vizuálne presvedčí,
+     prečo práve táto trasa je najkratšia.
+
+Poznámka: Podrobný výpočet sa v texte neuvádza; hlavný dôraz je na to, na čo sú jednotlivé úlohy
+zamerané (rozvoj priestorových intuícií) a nie na formálny postup.
+
+ Rez kocky rovinou
+
+Krok 1 – Zostrojte kocku z 3D pera
+   • Na papier umiestnite šablónu kocky.  
+   • Pomocou 3D pera pozdĺžne extrudujte filamento­vé „hrany“ kocky (dlžka 5 cm).  
+   • Uistite sa, že všetky šestnásť hrán sú rovnaké a spoje sú pevné.
+
+Krok 2 – Vyberte tri body A, B, C na povrchu kocky
+   • Aspoň dvaja z týchto bodov ležia v tej istej stene (napr. ABC sú vrcholy spodnej steny).  
+   • Označte ich farbou alebo drobnou samolepkou.
+
+Krok 3 – Zostrojte rovinu určenú tromi bodmi
+   • Položte papierovú šablónu pre rovinu a pomocou 3D pera vytvorte filamento­vú „dosku“,  
+     ktorá prechádza bodmi A, B, C (táto doska slúži ako plocha rezu).  
+   • Je dôležité, aby doska vyčnievala z kocky, aby bolo zrejmé, kde prienik rezu prebieha.
+
+Krok 4 – Zaznamenajte tvar rezu
+   • Po vytvorení filamento­vej dosky odstráňte zvyšky okolo kocky a pozorujte, aký tvar vznikol  
+     (úplný päť- alebo šesťuholník).  
+   • Žiak vykreslí tvar rezu na papier a odmeria jeho strany a uhly.
+
+Krok 5 – Vyhodnotenie
+   • Žiak porovná vypočítané rozmery rezu s reálnym filamento­vým modelom a overí si správnosť
+     svojho postupu [filecite turn0file1].
+
+ Voľné rovnobežné premietanie
+
+Popis voľného rovnobežného premietania
+   • Voľné rovnobežné premietanie (axonometriu) definujeme tak, že priamky, ktoré sú v priestore
+     kolmice na premietaciu rovinu, sa v jej obraze skracujú presne na polovicu a zvierajú s obrazmi
+     tých, ktoré v rovine ležia, uhly 45°.  
+   • Študenti si vzorovo postavia kváder alebo hranol, potom umiestnia 3D pero (alebo držiak s
+     plastovou doskou) tak, aby model fixovali pod uhlom 45°, a zatlačia papierové pravítko.
+
+Úloha 1 – Modelujte kváder pod uhlom 45°
+   – Na papier položte šablónu kvádra.  
+   – Pomocou 3D pera extrudujte rohy kvádra a postupne aj hrany pod uhlom, kým nevznikne 3D
+     model kvádra.  
+   – Položte premietaciu dosku (šablónu) tak, aby bola nárysná strana voči modelu pod uhlom 45°.  
+   – Všimnite si, ako sa obraz vrchnej plochy „skracuje“ a zároveň sa rovnobežné hrany javia krivšie.
+
+Úloha 2 – Premietanie niekoľkých základných telies
+   – Zostrojte kocku a ihlan z filamentu.  
+   – Pomocou roviny premietaného papiera (priloženej k šablóne) umiestnite model ihlana a kocky
+     v rôznych polohách.  
+   – Pozorujte rozdiel medzi horizontálnymi, vertikálnymi a šikmými hranami v ich obrazoch.  
+   – Zaznamenajte pomer dĺžok vrstvených čiar (kolmé úsečky na premietaciu rovinu) a vypočítajte
+     skutočné rozmery objektu.

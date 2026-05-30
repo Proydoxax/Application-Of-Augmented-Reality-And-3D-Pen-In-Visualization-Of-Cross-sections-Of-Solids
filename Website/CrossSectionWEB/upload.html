@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Folder of Media</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"], select, input[type="file"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+        }
+        button {
+            margin-top: 12px;
+            padding: 10px 16px;
+            background-color: #23DAFF;
+            border: none;
+            color: #fff;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #1bb8db;
+        }
+        .note {
+            font-size: 0.9rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .message {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #e0f8e9;
+            border: 1px solid #9ae69c;
+            color: #1d7f3c;
+        }
+        .error {
+            background-color: #fde0e0;
+            border: 1px solid #e69c9c;
+            color: #7f1d1d;
+        }
+    </style>
+</head>
+<body>
+<h1>Upload Folder of Media</h1>
+<p class="note">
+    Vyberte priečinok, ktorý obsahuje fotografie alebo videá (v závislosti od zvoleného typu).<br>
+    Všetky súbory v priečinku budú nahrané s danou rovnakou kategóriou a kľúčovými slovami.
+</p>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    <label>
+        Názov (Title):
+        <input type="text" name="title" required placeholder="Základný názov (napr. 'Kocka')">
+    </label>
+
+    <label>
+        Typ súboru (Type):
+        <select name="type" required>
+            <option value="photo">Photo (Obrázok)</option>
+            <option value="video">Video</option>
+        </select>
+    </label>
+
+    <label>
+        Kľúčové slová (Keywords, comma-separated):
+        <input type="text" name="keywords" placeholder="napr. kocka,cube">
+    </label>
+
+    <label>
+        Vyberte priečinok alebo viaceré súbory:<br>
+        <input type="file" name="files[]" webkitdirectory directory multiple required>
+    </label>
+
+    <button type="submit">Nahrať priečinok</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,61 @@
+ 3D pero
+
+ Výber pera s ohľadom na ekonomické možnosti škôl
+3D pero je v podstate malá adičná 3D tlačiareň, ktorá roztápa PLA filament pri približne 200 °C
+a nanáša roztavený plast vrstvu po vrstve. Autorka porovnáva niekoľko modelov
+3D pier (značky XY, AB, CD), z ktorých najdostupnejšie stoja okolo 30 € a majú základné funkcie
+(meniteľná teplota, rýchlosť výtlačku). Upozorňuje však, že školy by mali voliť perá, ktoré majú
+jednoduchý mechanizmus výmeny trysky a sú kompatibilné s lacnými generickými PLA filamentmi.
+
+ Vhodnosť filamentov vzhľadom na ekológiu a udržateľnosť
+Autorka zdôrazňuje, že PLA filament je biologicky odbúrateľný termoplast a patrí medzi ekologickejšie
+možnosti (oproti ABS). V školskom prostredí je dôležité voliť filament, ktorý nemá toxické prísady,
+aby sa predchádzalo zdravotným rizikám pri dlhšom používaní. Piačková odporúča nakupovať filamenty
+v celkom hmotnosti 1 kg za približne 25 €, čo vystačí na stovky žiakov pri priemernom odhadovanom
+spotrebovaní okolo 10 g filamentu na jednu úlohu.
+
+ Využitie vo vzdelávacom procese
+Pomocou 3D pera sa dajú vytvoriť pomôcky: papierové pravítko, premietací kút, či šablóny na rezy kociek.
+Autorka doporučuje začať s jednoduchými úlohami: kreslenie dvoch mimobežných priamok, vytvorenie
+kolmého steny medzi nimi, aby sa meral pravý uhol, či vytvorenie kvádra pod uhlom 45 °.
+Všetko, čo sa pôvodne robilo ceruzkou a papierom, sa dnes dá realizovať pomocou 3D pera
+a v ňom vytvorenej pomôcky.
+
+ Druhy filamentov a ich vlastnosti
+Redechová v tejto časti uvádza, že okrem PLA existujú aj iné ekologické filaments (napr. PETG,
+PLA+ s farebnými pigmentmi, drevité PLA), no školskej triede stačí štandardné biele PLA pre
+preukázanie princípov rezania a zobrazenia telies. Filament musí byť pevný, no nemal by byť príliš
+náročný na extrúziu, pretože žiaci často nemajú skúsenosti s nastavením optimálnej teploty perom.
+Textúra a hrúbka filamentov (1,75 mm vs. 2,85 mm) sa líši podľa modelu pera; autorka odporúča
+fotiť pozornosť na perá s 1,75 mm priemerom, pretože sa ľahšie používajú v lacnejších školských sadách.
+
+ Vhodnosť 3D pera pre vyučovací proces
+Autorka píše, že výber perá by mal zohľadňovať ergonomické aspekty: nízka hmotnosť (< 50 g),
+jednoduchá výmena filamentu a možnosť regulovať rýchlosť extrúzie. V praxi uvádza, že pri 45-minútovej
+hodine s 20 žiakmi stačí jedno náhradné pero (pokiaľ jedno zlyhá) a jeden kilogram PLA, čo je z
+rozpočtového hľadiska únosné.
+
+ Charakteristika a jeho využitie
+3D pero spája vlastnosti 3D tlačiarne s ručným nástrojom – umožňuje vytvárať trojrozmerné
+tvary priamo v priestore. Trubačová popisuje princíp fungovania: pero
+nájde zdroj PLA filament (1,75 mm), ktorý sa zahrieva vo vnútri, potom sa roztavený plast
+extruduje tryskou a tuhne vo vzduchu. Vďaka tomu študenti môžu priamo znázorniť geometriu
+bez potreby zložitej prípravy 3D modelu v počítači.
+
+ Parametre, funkcie a typy 3D pier
+V tejto podkapitole sú uvedené rozdiely medzi hobby 3D perami (20 €–30 €), poloprofesionálnymi
+(40 €–60 €) a profesionálnymi (≥ 100 €). Rozdiel je v presnosti extrúzie, citlivosti na zmenu
+teploty a dostupnosti voliteľných dýz. Autorka odporúča pre školský proces lacnejší segment,
+pokiaľ v balení sú aspoň dva typy trysiek (0,4 mm a 0,7 mm) a možnosť prepínať rýchlosť extrúzie.
+
+ Termoplastické filamenty
+Okrem PLA existujú i iné materiály (ABS, PETG), no Trubačová zdôrazňuje, že najvhodnejší pre školy
+je PLA vďaka jeho biologickej odbúrateľnosti a nízkej teplote tavenia (180 °C–200 °C). Z bezpečnostného
+hľadiska je PLA menej toxický ako ABS (ktorý pri tavení môže uvoľňovať štiepne častice a
+napríklad styrén).
+
+ Šablóny a ďalšie príslušenstvo
+Autorka zaraďuje do príslušenstva papierové pravítko, premietací kút, šablóny na rezy kociek,
+vzory priestorových telies (kocka, kosoštvorec) a podložku, aby sa filament nelepil na lavicu. 
+Na efektívne využitie je potrebné, aby si pedagóg pripravil aspoň trojicu
+rôznych šablón (napr. prisma, ihlan, kocka) a ukázal ich žiakom pred ukážkou práce s perom.

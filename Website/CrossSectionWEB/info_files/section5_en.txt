@@ -1,0 +1,40 @@
+Evaluation of the Experimental Lessons
+
+Student Feedback
+After two experimental lessons with a 3D pen, Piacková conducted a survey:  
+   – 85 % of students said they grasped spatial relationships more quickly than with purely theoretical exercises.  
+   – 70 % of students felt that electronic graphic demonstrations (computer apps) were technically difficult to use, whereas the 3D pen gave immediate feedback and felt less technically demanding.  
+   – A few students (15 %) mentioned that on their first attempt they struggled with hand stability and needed more time to master the extrusion technique.
+
+Questionnaire Results
+The questionnaire consisted of 10 items on a Likert scale:  
+   – “I feel more confident solving metric relationships when I have a real model.”  
+     - Average score: 4.3 / 5  
+   – “I understand why some edges shorten in the projection.”  
+     - Average score: 4.1 / 5  
+   – “Learning with a 3D pen is more enjoyable than traditional drawing.”  
+     - Average score: 4.7 / 5  
+
+Overall, Piacková concluded that experimental teaching with innovative tools—such as the 3D pen—boosted interest in stereometry and improved students’ test scores by about 15 % on average compared to the control group.
+
+Discussion and Summary
+Redechová states that in their experiment:  
+   – The experimental group (with 3D pens) scored on average 12 % higher on spatial imagination tests (tests included cutting a cube with a plane and determining line–plane relationships).  
+   – 85 % of students in the experimental group said that using a 3D pen helped them better visualize abstract concepts (e.g., “I better understood cross-sections of 3D solids”).  
+   – The author emphasized that students’ spatial imagination increased (measured via the “line–plane relationships” test before and after the experiment), with the largest gain (18 %) among students who initially had lower scores.
+
+Teacher Feedback
+   – Educators confirmed that tangible filament models help ground students’ understanding of spatial relationships.  
+   – A drawback mentioned was that layer-by-layer filament building is slow (about 25 minutes for a complete cube model), and if students are not guided carefully, they can become frustrated due to edge imperfections.  
+   – Recommendation: Add a brief preliminary video demonstration about how a 3D pen works so students know what to expect before touching it.
+
+Student Feedback (Elementary School)
+In elementary schools (Grade 7), Trubačová reports:  
+   – 90 % of students felt they learned faster than with regular exercises without the 3D pen.  
+   – 80 % of students found the 3D pen fun and motivating.  
+   – The least confident were students who had never held a 3D pen before—they had trouble balancing when creating vertical walls.
+
+Teacher Observations
+   – Teachers confirmed that tactile filament models help students “root” their understanding of spatial relationships.  
+   – As a downside, they noted that filament layering is slow (25 minutes for a complete cube model), and without careful guidance, students can get frustrated due to imperfect edges.  
+   – Recommendation: Add a short introductory video about the 3D pen so students know how it works before they try it themselves.

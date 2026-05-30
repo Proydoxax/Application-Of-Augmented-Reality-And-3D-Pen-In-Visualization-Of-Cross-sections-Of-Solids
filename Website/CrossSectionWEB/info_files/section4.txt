@@ -1,0 +1,57 @@
+ Realizácia vyučovania vo vybranej triede SŠ
+
+Autor opisuje, ako prebiehali dve experimentálne hodiny s 3D perom v triede strednej školy
+(počet žiakov: 24, vek: 16–17 rokov). Trieda bola rozdelená do 6 skupín po 4 žiakov; každá skupina
+mala jedno 3D pero a dve šablóny (kocka, premietací kút). Učiteľ (PQ) najprv demonštroval vytvorenie
+„steny“ medzi dvoma mimobežnými priamkami, potom zadal úlohu zostrojiť kocku a nakresliť jej
+rovinný rez. Hodina trvala 45 min; počas nej sa žiaci striedali, zaznamenávali svoje pozorovania
+do pracovného listu a porovnávali výsledky s predpísanými vzorcami pre výpočet uhlov a vzdialeností.
+
+ Postup práce študentov s 3D perom
+1. Príprava: Skupina si rozdelila úlohy – jeden žiak zaznamenával rozmery, druhý kreslil šablóny,
+   tretí vytváral 3D model, štvrtý zapisoval záverečné postrehy.  
+2. Kreslenie: Žiaci extrudovali filamento­vé „tyčinky“, ktoré predstavovali hrany kocky (5 cm).  
+3. Vytvorenie rezu: Pomocou šablóny a 3D pera vytvorili rovinový model rezu kocky (obtiahnutie
+   filamentu pozdĺž troch bodov A, B, C).  
+4. Meranie: Po vytvrdnutí filamentu merali uhly a strany rezu plastovou šablónou a porovnávali
+   vypočítané údaje s realizovaným modelom.  
+5. Diskusia: Žiaci hodnotili rozdiely medzi teoretickými hodnotami a výsledkami z modelu
+   (napr. mierne odchýlky pri nenapravenom rohu).  
+Priority: Autorka zdôrazňuje, že z hľadiska učiteľa je dôležité dať dostatok času na prípravu a
+demonštráciu, keďže žiaci musia pochopiť, prečo kreslia reálny model pred tým, než riešia vzorce.
+
+ Realizácia vyučovania v triede
+Redechová popisuje, ako sa uplatnila hodina, v ktorej žiaci pracovali na úlohách so 3D perom:
+   • Dĺžka hodiny: 45 min, počet žiakov: 20.  
+   • Príprava šablón: Pred hodinou sa učiteľ pripravil tri papierové šablóny (kocka, kváder, ihlan).
+     Žiaci pracovali po dvojiciach.  
+   • Postup:  
+     1. Zahriatie filamentu a krátky návod na bezpečnú manipuláciu.  
+     2. Žiaci kreslili „kostru“ kocky (hrany z filamentu, 5 cm).  
+     3. Vytvorili rovinový model rezu kocky pomocou tri bodov (dvaja žiaci držali šablónu, dvaja
+        kreslili rezu na kocke).  
+     4. Nakreslili tvar rezu na pracovný list (zaznamenanie strana–uhol).  
+     5. Diskusia: Porovnanie výsledkov s lúštrom vypočítaných vzorcov pre rez kockou.  
+Rozhodnutie: Autorka odporúča používať filamente s farebným pigmentom (napr. modrý PLA),  
+aby bolo lepšie viditeľné, kde sa začína a končí rez. Učiteľ uistil, že každý pár mal k dispozícii
+papierovú šablónu aj náhradné pero.
+
+ Priebeh a organizácia experimentálnej výučby
+Experiment prebiehal na základnej škole:  
+   – Trieda: 7. ročník (vek 12–13 rokov), počet žiakov: 24.  
+   – Organizácia: Žiaci boli rozdelení do 4 skupín po 6; každá skupina mala jedno 3D pero  
+     a jedného asistenta (staršieho študenta alebo pedagóga asistent).  
+   – Priebeh:  
+     1. Úvod (5 min): Žiakom sa vysvetlil princíp voľného rovnobežného premietania.  
+     2. Demonstrácia (10 min): Učiteľ predviedol kreslenie trojrozmerného kvádra a jeho premietanie
+        na papier o 45 °.  
+     3. Praktická časť (25 min): Žiaci zostavili kocku z filamentu (hrany 4 cm), nakreslili jej voľný
+        rovnobežný obraz a následne zostrojili a posúdili rez kocky cez tri určené body.  
+     4. Reflexia (5 min): Diskusia o tom, čo zistili – prečo sa niektoré hrany v obraze skracujú a ako
+        sa matematicky vysvetľujú tieto skracovania.
+
+ Zvládnutie učiva
+Podľa Trubačovej pomohlo použitie 3D pera žiakom fyzicky si vytvoriť model a tým sa lepšie
+umiestnili v priestore. Reflexné schopnosti (odhad uhlov, dĺžok) sa zlepšili v porovnaní s kontrolnou
+skupinou, ktorá pracovala bez 3D pera. Pedagógovia zároveň potvrdili, že použitie detských 3D
+pier (lacné modely do 30 €) je dostatočné a bezpečné v školskom prostredí.

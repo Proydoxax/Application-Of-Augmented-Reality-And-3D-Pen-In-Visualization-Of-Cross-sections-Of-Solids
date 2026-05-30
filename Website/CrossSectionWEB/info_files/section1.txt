@@ -1,0 +1,47 @@
+ Požiadavky na zručnosti študentov
+
+ Analytická geometria v osnovách stredných škôl
+Analytická geometria ako súčasť vzdelávacieho programu vyžaduje od žiakov stredných škôl
+schopnosť pracovať s pojmami vektorového priestoru, súradnicového systému a euklidovskej
+metriky. V rámci štátnych vzdelávacích programov sa očakáva, že študent
+rozumie pojmom bod, priamka, rovina a dokáže posudzovať vzájomné polohy lineárnych útvarov
+(potom aj ich obrazy vo voľnom rovnobežnom premietaní). Učebné osnovy sa opierajú o
+štruktúru, ktorá vychádza z požiadaviek na kritické a logické myslenie, ako aj na rozvoj priestorovej
+predstavivosti.
+
+ Inovatívne metódy vo výučbe stereometrie a úloha učiteľa
+V tejto podkapitole autorka zdôrazňuje, že klasické ploché zobrazenia nestačia na plné pochopenie
+priestorových vzťahov. Priestorovú geometriu je možné obohatiť pridaním
+inovatívnych pomôcok ako 3D pero, papierové pravítko a premietací kút. Ide o to, aby sa žiaci
+vďaka hmatovým a vizuálnym pomôckam dokázali lepšie orientovať vo vzťahoch priamka–rovina,
+rovina–rovina či priestorový rez. 3D pero umožní vytvoriť reálny model telesa aj jeho rezu, čím sa
+rozvíja syntetické myslenie žiakov a prehlbuje ich priestorová predstavivosť. Autorka tvrdí, že
+takýto „dotykový“ prístup je zvlášť užitočný pre žiakov so špeciálnymi vzdelávacími potrebami a
+pre tých, ktorí sa učia lepšie prakticky než abstraktne.
+
+Úvod do priestorovej geometriedi v stredných školách
+V prvej kapitole práce sa zdôrazňuje význam rozvoja priestorovej predstavivosti u dospievajúcich
+žiakov, keďže zrenia kognitívnych schopností (10–16 rokov) umožňuje nahliadnuť do abstraktných
+konceptov stereometrie. Autorka Redechová prezentuje prehľad požiadaviek
+ŠVP (Štátny vzdelávací program) na tému „Znázorňovanie trojrozmerného priestoru“, kde je
+zahrnuté voľné rovnobežné premietanie aj konštrukcia rezu telies. Žiaci sa majú učiť načrtávať
+obrázky kociek, kvádrov, ihlanov a posudzovať vzájomné polohy priamok a rovín v priestore
+prostredníctvom ich rovnobežných (alebo rôznobežných) obrazov na rovine.
+
+Inovatívne pomôcky – 3D pero
+Redechová navrhuje do výučby zapojiť 3D pero, aby sa žiaci mohli priamo dotknúť 3D modelov
+teles a vyhotoviť ich rezy. Namiesto čisto teoretického uvažovania nad rovinou a telesom si žiak
+postaví reálny model ihlana, kocky alebo kvádra a potom ich rozreže pomocou nástroja
+na papierovej alebo plastovej šablóne. Vďaka tomu lepšie pochopí, ako sa rezy
+tvořia, a priestorový rez vníma skôr „z ruky“ než len očami.
+
+Parametre výskumu a priestorová geometriedi v ZŠ
+Trubačová začína tým, že na základných školách (veková skupina 10–12 rokov) je stále potrebné
+klásť dôraz na rozvoj priestorovej predstavivosti ako kľúčovej gramotnosti moderného človeka.
+Autorka uvádza, že 3D pero dokáže priblížiť žiakom abstraktné pojmy stereometrie jednoduchým
+gestom, keďže môžu kresliť priamo v priestore. V kapitole „Stereometria v
+osnovách ZŠ“ je podrobne rozvedené, ako sa v učebných materiáloch kladie dôraz na základné
+vzťahy – priesečnice rovin, polohy priamok a rovín, čím sa žiak naučí chápať pojmy ako „rovnobežné
+roviny“ či „prienik rovinou určenou tromi bodmi“. Pre inovatívne vyučovanie autorka navrhuje
+kombinovať gesto3D perom (kreslenie ihlanov, kociek, kyvadlových reťazí) s klasickými geometrickými
+cvičeniami a šablónami na rez kocky.
